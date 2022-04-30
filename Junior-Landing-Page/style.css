@@ -7,13 +7,34 @@ html, body
     font-size: 18px;
 }
 
-.btn
+#custom-bs .btn
 {
     border-radius: 10px;
 }
 
-.btn-grown:hover
+#custom-bs .lighten:hover
 {
-    transition: all 0.25s ease;
-    transform: scale(1.1);
+    transition: all 0.5s ease;
+    color: hsl(0, 0%, 98%)!important;
+}
+
+#custom-bs .darken:hover
+{
+    transition: all 0.5s ease;
+    color: hsl(0, 0%, 8%)!important;
+}
+
+#custom-bs .text-light
+{
+    color: hsl(0, 0%, 98%)!important;
+}
+
+#custom-bs .text-dark
+{
+    color: hsl(0, 0%, 8%)!important;
+}
+
+#custom-bs .text-secondary
+{
+    color: hsl(0, 0%, 50%)!important;
 }
