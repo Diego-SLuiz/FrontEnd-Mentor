@@ -24,6 +24,13 @@ html, body
     color: hsl(0, 0%, 8%)!important;
 }
 
+#custom-bs .transparent:hover
+{
+    transition: all 0.5s ease;
+    color: hsl(0, 0%, 8%)!important;
+    background-color: rgba(0, 0, 0, 0)!important;
+}
+
 #custom-bs .text-light
 {
     color: hsl(0, 0%, 98%)!important;
@@ -37,4 +44,10 @@ html, body
 #custom-bs .text-secondary
 {
     color: hsl(0, 0%, 50%)!important;
+}
+
+#custom-bs .text-large
+{
+    font-size: 3rem!important;
+    font-weight: 700!important;
 }
