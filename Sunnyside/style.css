@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap');
+
+html, body
+{
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    --color-gray: hsl(210, 4%, 67%);
+    --color-yellow: hsl(51, 100%, 49%);
+}
+
+body > header
+{
+    background: url("./assets/mobile/image-header.jpg") center / auto 100% no-repeat #3ebfff;
+    height: 100vh;
+}
+
+@media (min-width: 767px)
+{
+    body > header
+    {
+        background-image: url("./assets/desktop/image-header.jpg");
+    }
+}
+
+@media (max-width: 767px)
+{
+    #menu
+    {
+        background-color: white!important;
+    }
+
+    #menu .text-light
+    {
+        color: var(--color-gray)!important;
+    }
+
+    #menu .bg-light
+    {
+        background-color: var(--color-yellow)!important;
+        margin: 0.5rem 0;
+    }
+}
+
+.nav-btn:hover
+{
+    transition: all 0.5s ease;
+    background-color: #6ecfff!important;
+    color: hsl(0, 0%, 100%)!important;
+}
+
+.nav-link:hover
+{
+    transition: all 0.5s ease;
+    background-color: #8dd0f175;
+}
+
+.font-title
+{
+    font-family: 'Fraunces', serif!important;
+}
